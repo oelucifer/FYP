@@ -23,3 +23,6 @@ python script_without_ads.py --video "./videos/Trim 15.mp4" --frame_skipping_rat
 ```
 The only thing that is changed here is that it does not take ad_time_duration because it does not show ad. it just fetches the video file and will do 
 age and gender recognition on the frame.
+
+## About the Ads.
+The ads are fetched from the Ads folder. The folder contains two subfolders "M" and "F". M is for Male and F is for you guessed it ... inside these folder there are multiple subfolders such as "0,3" and "4,7" these are the "age ranges" the ads inside the folder "26,34" that is inside the "M" folder are for the individuals that are Male and are of 26 to 34. You can place your ads too inside these folders but make sure to not place image ads not video ads 
